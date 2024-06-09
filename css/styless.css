@@ -135,10 +135,56 @@ main.map{
   }
 
 /* Estilos Específicos para a Página Bandeiras */
-main.flags{
+
+
+.flags-container {
     display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flags-container .flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem; /* Altura fixa */
+    width: 15rem;  /* Largura fixa */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+}
+
+.flags-container .flag img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0%;
+    object-fit: contain;
+}
+
+.flags-container .flag .flag-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: auto;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.flags-container .flag:hover .flag-name {
+  opacity: 1;
+}
+
+.flags-container .flag:hover {
+    transform: scale(1.05);
 }
 
 /* Pagina de Contato*/
