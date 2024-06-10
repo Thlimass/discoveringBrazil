@@ -1,6 +1,6 @@
 [
     {
-        "estate": "Acre (AC)",
+        "state": "Acre (AC)",
         "population": "Aproximadamente 906.876 habitantes",
         "territorial_area": "Aproximadamente 164.123 km²",
         "municipalities": 22,
@@ -21,7 +21,7 @@
         "age": "61 anos"
     },
     {
-        "estate": "Alagoas (AL)",
+        "state": "Alagoas (AL)",
         "population": "Aproximadamente 3.351.543 habitantes",
         "territorial_area": "Aproximadamente 27.767 km²",
         "municipalities": 102,
@@ -42,7 +42,7 @@
         "age": "207 anos"
     },
     {
-        "estate": "Amapá (AP)",
+        "state": "Amapá (AP)",
         "population": "Aproximadamente 877.613 habitantes",
         "territorial_area": "Aproximadamente 142.814 km²",
         "municipalities": 16,
@@ -62,7 +62,7 @@
         "age": "81 anos"
     },
     {
-        "estate": "Amazonas (AM)",
+        "state": "Amazonas (AM)",
         "population": "Aproximadamente 4.348.129 habitantes",
         "territorial_area": "Aproximadamente 1.570.946 km²",
         "municipalities": 62,
@@ -83,7 +83,7 @@
         "age": "174 anos"
     },
     {
-        "estate": "Bahia (BA)",
+        "state": "Bahia (BA)",
         "population": "Aproximadamente 15.344.447 habitantes",
         "territorial_area": "Aproximadamente 564.692 km²",
         "municipalities": 417,
@@ -104,7 +104,7 @@
         "age": "201 anos"
     },
     {
-        "estate": "Ceará (CE)",
+        "state": "Ceará (CE)",
         "population": "Aproximadamente 9.441.640 habitantes",
         "territorial_area": "Aproximadamente 148.825 km²",
         "municipalities": 184,
@@ -125,7 +125,7 @@
         "age": "201 anos"
     },
     {
-        "estate": "Distrito Federal (DF)",
+        "state": "Distrito Federal (DF)",
         "population": "Aproximadamente 3.120.375 habitantes",
         "territorial_area": "Aproximadamente 5.802 km²",
         "municipalities": 1,
@@ -146,7 +146,7 @@
         "age": "64 anos"
     },
     {
-        "estate": "Espírito Santo (ES)",
+        "state": "Espírito Santo (ES)",
         "population": "Aproximadamente 4.064.052 habitantes",
         "territorial_area": "Aproximadamente 46.077 km²",
         "municipalities": 78,
@@ -167,7 +167,7 @@
         "age": "207 anos"
     },
     {
-        "estate": "Goiás (GO)",
+        "state": "Goiás (GO)",
         "population": "Aproximadamente 7.507.771 habitantes",
         "territorial_area": "Aproximadamente 340.086 km²",
         "municipalities": 246,
@@ -188,7 +188,7 @@
         "age": "202 anos"
     },
     {
-        "estate": "Maranhão (MA)",
+        "state": "Maranhão (MA)",
         "population": "Aproximadamente 7.177.564 habitantes",
         "territorial_area": "Aproximadamente 331.983 km²",
         "municipalities": 217,
@@ -209,7 +209,7 @@
         "age": "203 anos"
     },
     {
-        "estate": "Mato Grosso (MT)",
+        "state": "Mato Grosso (MT)",
         "population": "Aproximadamente 4.646.349 habitantes",
         "territorial_area": "Aproximadamente 903.207 km²",
         "municipalities": 141,
@@ -230,7 +230,7 @@
         "age": "135 anos"
     },
     {
-        "estate": "Mato Grosso do Sul (MS)",
+        "state": "Mato Grosso do Sul (MS)",
         "population": "Aproximadamente 2.809.394 habitantes",
         "territorial_area": "Aproximadamente 357.145 km²",
         "municipalities": 79,
@@ -251,7 +251,7 @@
         "age": "47 anos"
     },
     {
-        "estate": "Minas Gerais (MG)",
+        "state": "Minas Gerais (MG)",
         "population": "Aproximadamente 22.778.925 habitantes",
         "territorial_area": "Aproximadamente 586.528 km²",
         "municipalities": 853,
@@ -272,7 +272,7 @@
         "age": "202 anos"
     },
     {
-        "estate": "Pará (PA)",
+        "state": "Pará (PA)",
         "population": "Aproximadamente 9.620.011 habitantes",
         "territorial_area": "Aproximadamente 1.247.689 km²",
         "municipalities": 144,
@@ -293,7 +293,7 @@
         "age": "201 anos"
     },
     {
-        "estate": "Paraíba (PB)",
+        "state": "Paraíba (PB)",
         "population": "Aproximadamente 4.173.437 habitantes",
         "territorial_area": "Aproximadamente 56.469 km²",
         "municipalities": 223,
@@ -314,7 +314,7 @@
         "age": "202 anos"
     },
     {
-        "estate": "Paraná (PR)",
+        "state": "Paraná (PR)",
         "population": "Aproximadamente 11.640.367 habitantes",
         "territorial_area": "Aproximadamente 199.314 km²",
         "municipalities": 399,
@@ -335,7 +335,7 @@
         "age": "171 anos"
     },
     {
-        "estate": "Pernambuco (PE)",
+        "state": "Pernambuco (PE)",
         "population": "Aproximadamente 9.691.567 habitantes",
         "territorial_area": "Aproximadamente 98.311 km²",
         "municipalities": 184,
@@ -356,7 +356,7 @@
         "age": "207 anos"
     },
     {
-        "estate": "Piauí (PI)",
+        "state": "Piauí (PI)",
         "population": "Aproximadamente 3.351.543 habitantes",
         "territorial_area": "Aproximadamente 251.529 km²",
         "municipalities": 224,
@@ -377,7 +377,7 @@
         "age": "202 anos"
     },
     {
-        "estate": "Rio de Janeiro (RJ)",
+        "state": "Rio de Janeiro (RJ)",
         "population": "Aproximadamente 17.463.360 habitantes",
         "territorial_area": "Aproximadamente 43.780 km²",
         "municipalities": 92,
@@ -398,7 +398,7 @@
         "age": "459 anos"
     },
     {
-        "estate": "Rio Grande do Norte (RN)",
+        "state": "Rio Grande do Norte (RN)",
         "population": "Aproximadamente 3.701.289 habitantes",
         "territorial_area": "Aproximadamente 52.796 km²",
         "municipalities": 167,
@@ -419,7 +419,7 @@
         "age": "427 anos"
     },
     {
-        "estate": "Rio Grande do Sul (RS)",
+        "state": "Rio Grande do Sul (RS)",
         "population": "Aproximadamente 11.619.786 habitantes",
         "territorial_area": "Aproximadamente 281.748 km²",
         "municipalities": 497,
@@ -440,7 +440,7 @@
         "age": "189 anos"
     },
     {
-        "estate": "Rondônia (RO)",
+        "state": "Rondônia (RO)",
         "population": "Aproximadamente 1.814.046 habitantes",
         "territorial_area": "Aproximadamente 237.576 km²",
         "municipalities": 52,
@@ -461,7 +461,7 @@
         "age": "42 anos"
     },
     {
-        "estate": "Roraima (RR)",
+        "state": "Roraima (RR)",
         "population": "Aproximadamente 652.713 habitantes",
         "territorial_area": "Aproximadamente 224.299 km²",
         "municipalities": 15,
@@ -482,7 +482,7 @@
         "age": "36 anos"
     },
     {
-        "estate": "Santa Catarina (SC)",
+        "state": "Santa Catarina (SC)",
         "population": "Aproximadamente 7.382.372 habitantes",
         "territorial_area": "Aproximadamente 95.346 km²",
         "municipalities": 295,
@@ -503,7 +503,7 @@
         "age": "202 anos"
     },
     {
-        "estate": "São Paulo (SP)",
+        "state": "São Paulo (SP)",
         "population": "Aproximadamente 46.289.333 habitantes",
         "territorial_area": "Aproximadamente 248.209 km²",
         "municipalities": 645,
@@ -524,7 +524,7 @@
         "age": "470 anos"
     },
     {
-        "estate": "Sergipe (SE)",
+        "state": "Sergipe (SE)",
         "population": "Aproximadamente 2.355.704 habitantes",
         "territorial_area": "Aproximadamente 21.910 km²",
         "municipalities": 75,
@@ -545,7 +545,7 @@
         "age": "204 anos"
     },
     {
-        "estate": "Tocantins (TO)",
+        "state": "Tocantins (TO)",
         "population": "Aproximadamente 1.733.559 habitantes",
         "territorial_area": "Aproximadamente 277.620 km²",
         "municipalities": 139,
