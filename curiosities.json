@@ -1,0 +1,568 @@
+[
+    {
+        "estate": "Acre (AC)",
+        "population": "Aproximadamente 906.876 habitantes",
+        "territorial_area": "Aproximadamente 164.123 km²",
+        "municipalities": 22,
+        "climate": "Predominantemente equatorial",
+        "time_zone": "UTC -5",
+        "cultural_traditions": "Influências indígenas e amazônicas, festas populares como o Festival do Açaí.",
+        "typical_foods": [
+            "Tacacá",
+            "pato no tucupi",
+            "maniçoba"
+        ],
+        "natural_resources": [
+            "Borracha natural",
+            "madeira",
+            "minérios"
+        ],
+        "date_of_fundation": "15 de junho de 1962",
+        "age": "61 anos"
+    },
+    {
+        "estate": "Alagoas (AL)",
+        "population": "Aproximadamente 3.351.543 habitantes",
+        "territorial_area": "Aproximadamente 27.767 km²",
+        "municipalities": 102,
+        "climate": "Predominantemente tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências afro-brasileiras, festas populares como o Carnaval de Maceió.",
+        "typical_foods": [
+            "Sururu",
+            "tapioca",
+            "cuscuz"
+        ],
+        "natural_resources": [
+            "Cana-de-açúcar",
+            "coco",
+            "petróleo"
+        ],
+        "date_of_fundation": "16 de setembro de 1817",
+        "age": "207 anos"
+    },
+    {
+        "estate": "Amapá (AP)",
+        "population": "Aproximadamente 877.613 habitantes",
+        "territorial_area": "Aproximadamente 142.814 km²",
+        "municipalities": 16,
+        "climate": "Equatorial e tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e afrodescendentes, festividades como o Marabaixo.",
+        "typical_foods": [
+            "Tacacá",
+            "arroz de jambu",
+            "vatapá"
+        ],
+        "natural_resources": [
+            "Minérios",
+            "biodiversidade amazônica"
+        ],
+        "date_of_fundation": "13 de setembro de 1943",
+        "age": "81 anos"
+    },
+    {
+        "estate": "Amazonas (AM)",
+        "population": "Aproximadamente 4.348.129 habitantes",
+        "territorial_area": "Aproximadamente 1.570.946 km²",
+        "municipalities": 62,
+        "climate": "Predominantemente equatorial",
+        "time_zone": "UTC -4",
+        "cultural_traditions": "Influências indígenas, festividades como o Festival de Parintins.",
+        "typical_foods": [
+            "Pirarucu",
+            "tacacá",
+            "tucumã"
+        ],
+        "natural_resources": [
+            "Biodiversidade amazônica",
+            "minérios",
+            "petróleo"
+        ],
+        "date_of_fundation": "5 de setembro de 1850",
+        "age": "174 anos"
+    },
+    {
+        "estate": "Bahia (BA)",
+        "population": "Aproximadamente 15.344.447 habitantes",
+        "territorial_area": "Aproximadamente 564.692 km²",
+        "municipalities": 417,
+        "climate": "Diversificado, predominando o tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências afro-brasileiras, festas populares como o Carnaval de Salvador.",
+        "typical_foods": [
+            "Acarajé",
+            "moqueca",
+            "vatapá"
+        ],
+        "natural_resources": [
+            "Agricultura (cacau, coco)",
+            "petróleo",
+            "minérios"
+        ],
+        "date_of_fundation": "26 de julho de 1823",
+        "age": "201 anos"
+    },
+    {
+        "estate": "Ceará (CE)",
+        "population": "Aproximadamente 9.441.640 habitantes",
+        "territorial_area": "Aproximadamente 148.825 km²",
+        "municipalities": 184,
+        "climate": "Predominantemente tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas populares como o Fortal.",
+        "typical_foods": [
+            "Carne-de-sol",
+            "tapioca",
+            "cuscuz"
+        ],
+        "natural_resources": [
+            "Agricultura (algodão, frutas)",
+            "petróleo",
+            "turismo"
+        ],
+        "date_of_fundation": "24 de março de 1823",
+        "age": "201 anos"
+    },
+    {
+        "estate": "Distrito Federal (DF)",
+        "population": "Aproximadamente 3.120.375 habitantes",
+        "territorial_area": "Aproximadamente 5.802 km²",
+        "municipalities": 1,
+        "climate": "Tropical de altitude",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Diversidade cultural devido à concentração de pessoas de diferentes regiões do Brasil,festas como o Carnaval de Brasília.",
+        "typical_foods": [
+            "Pequi",
+            "pamonha",
+            "empadão goiano"
+        ],
+        "natural_resources": [
+            "Cerâmica",
+            "agricultura",
+            "serviços"
+        ],
+        "date_of_fundation": "21 de abril de 1960",
+        "age": "64 anos"
+    },
+    {
+        "estate": "Espírito Santo (ES)",
+        "population": "Aproximadamente 4.064.052 habitantes",
+        "territorial_area": "Aproximadamente 46.077 km²",
+        "municipalities": 78,
+        "climate": "Tropical de altitude e subtropical úmido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias e indígenas, festas como a Festa da Penha.",
+        "typical_foods": [
+            "Moqueca capixaba",
+            "torta capixaba",
+            "bobó de camarão"
+        ],
+        "natural_resources": [
+            "Minérios (ferro, petróleo)",
+            "agricultura",
+            "turismo"
+        ],
+        "date_of_fundation": "23 de maio de 1817",
+        "age": "207 anos"
+    },
+    {
+        "estate": "Goiás (GO)",
+        "population": "Aproximadamente 7.507.771 habitantes",
+        "territorial_area": "Aproximadamente 340.086 km²",
+        "municipalities": 246,
+        "climate": "Tropical de altitude e tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e sertanejas, festas como o Cavalhadas de Pirenópolis.",
+        "typical_foods": [
+            "Pequi",
+            "empadão goiano",
+            "pamonha"
+        ],
+        "natural_resources": [
+            "Agricultura (soja, milho)",
+            "minérios",
+            "pecuária"
+        ],
+        "date_of_fundation": "26 de julho de 1822",
+        "age": "202 anos"
+    },
+    {
+        "estate": "Maranhão (MA)",
+        "population": "Aproximadamente 7.177.564 habitantes",
+        "territorial_area": "Aproximadamente 331.983 km²",
+        "municipalities": 217,
+        "climate": "Tropical úmido e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Bumba Meu Boi.",
+        "typical_foods": [
+            "Arroz de cuxá",
+            "peixada maranhense",
+            "torta de camarão"
+        ],
+        "natural_resources": [
+            "Agricultura (arroz, mandioca)",
+            "minérios",
+            "turismo"
+        ],
+        "date_of_fundation": "28 de julho de 1821",
+        "age": "203 anos"
+    },
+    {
+        "estate": "Mato Grosso (MT)",
+        "population": "Aproximadamente 4.646.349 habitantes",
+        "territorial_area": "Aproximadamente 903.207 km²",
+        "municipalities": 141,
+        "climate": "Tropical e tropical de altitude",
+        "time_zone": "UTC -4",
+        "cultural_traditions": "Influências indígenas e pantaneiras, festas como o Festival Internacional de Pesca Esportiva.",
+        "typical_foods": [
+            "Maria Isabel",
+            "pacu assado",
+            "arroz com pequi"
+        ],
+        "natural_resources": [
+            "Agronegócio (soja, gado)",
+            "minérios",
+            "ecoturismo"
+        ],
+        "date_of_fundation": "9 de maio de 1889",
+        "age": "135 anos"
+    },
+    {
+        "estate": "Mato Grosso do Sul (MS)",
+        "population": "Aproximadamente 2.809.394 habitantes",
+        "territorial_area": "Aproximadamente 357.145 km²",
+        "municipalities": 79,
+        "climate": "Tropical e subtropical úmido",
+        "time_zone": "UTC -4",
+        "cultural_traditions": "Influências indígenas e sulistas, festas como a Festa de São João.",
+        "typical_foods": [
+            "Carne de jacaré",
+            "sopa paraguaia",
+            "arroz carreteiro"
+        ],
+        "natural_resources": [
+            "Agronegócio (soja, gado)",
+            "minérios",
+            "turismo de aventura"
+        ],
+        "date_of_fundation": "11 de outubro de 1977",
+        "age": "47 anos"
+    },
+    {
+        "estate": "Minas Gerais (MG)",
+        "population": "Aproximadamente 22.778.925 habitantes",
+        "territorial_area": "Aproximadamente 586.528 km²",
+        "municipalities": 853,
+        "climate": "Tropical de altitude e tropical",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias e africanas, festas como a Semana Santa em Ouro Preto.",
+        "typical_foods": [
+            "Tutu de feijão",
+            "pão de queijo",
+            "feijão tropeiro"
+        ],
+        "natural_resources": [
+            "Minérios (ferro, ouro)",
+            "agricultura",
+            "turismo histórico"
+        ],
+        "date_of_fundation": "16 de julho de 1822",
+        "age": "202 anos"
+    },
+    {
+        "estate": "Pará (PA)",
+        "population": "Aproximadamente 9.620.011 habitantes",
+        "territorial_area": "Aproximadamente 1.247.689 km²",
+        "municipalities": 144,
+        "climate": "Equatorial e tropical úmido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e amazônicas, festas como o Círio de Nazaré.",
+        "typical_foods": [
+            "Tacacá",
+            "açaí",
+            "pato no tucupi"
+        ],
+        "natural_resources": [
+            "Biodiversidade amazônica",
+            "minérios",
+            "agricultura"
+        ],
+        "date_of_fundation": "15 de agosto de 1823",
+        "age": "201 anos"
+    },
+    {
+        "estate": "Paraíba (PB)",
+        "population": "Aproximadamente 4.173.437 habitantes",
+        "territorial_area": "Aproximadamente 56.469 km²",
+        "municipalities": 223,
+        "climate": "Tropical e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Carnaval de João Pessoa.",
+        "typical_foods": [
+            "Buchada de bode",
+            "macaxeira com carne de sol",
+            "cartola"
+        ],
+        "natural_resources": [
+            "Agricultura (algodão, cana-de-açúcar)",
+            "minérios",
+            "turismo"
+        ],
+        "date_of_fundation": "26 de janeiro de 1822",
+        "age": "202 anos"
+    },
+    {
+        "estate": "Paraná (PR)",
+        "population": "Aproximadamente 11.640.367 habitantes",
+        "territorial_area": "Aproximadamente 199.314 km²",
+        "municipalities": 399,
+        "climate": "Subtropical úmido e tropical de altitude",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias e indígenas, festas como a Festa do Divino em Paranaguá.",
+        "typical_foods": [
+            "Barreado",
+            "pierogi",
+            "carne de onça"
+        ],
+        "natural_resources": [
+            "Agricultura (soja, milho)",
+            "minérios",
+            "turismo"
+        ],
+        "date_of_fundation": "19 de dezembro de 1853",
+        "age": "171 anos"
+    },
+    {
+        "estate": "Pernambuco (PE)",
+        "population": "Aproximadamente 9.691.567 habitantes",
+        "territorial_area": "Aproximadamente 98.311 km²",
+        "municipalities": 184,
+        "climate": "Tropical úmido e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas, africanas e europeias, festas como o Carnaval de Recife e Olinda.",
+        "typical_foods": [
+            "Carne de sol",
+            "bolo de rolo",
+            "tapioca"
+        ],
+        "natural_resources": [
+            "Agricultura (cana-de-açúcar, frutas)",
+            "petróleo",
+            "turismo"
+        ],
+        "date_of_fundation": "6 de março de 1817",
+        "age": "207 anos"
+    },
+    {
+        "estate": "Piauí (PI)",
+        "population": "Aproximadamente 3.351.543 habitantes",
+        "territorial_area": "Aproximadamente 251.529 km²",
+        "municipalities": 224,
+        "climate": "Tropical e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Bumba Meu Boi.",
+        "typical_foods": [
+            "Cuscuz",
+            "carne de sol",
+            "Maria Isabel"
+        ],
+        "natural_resources": [
+            "Agricultura (algodão, soja)",
+            "minérios",
+            "turismo"
+        ],
+        "date_of_fundation": "19 de outubro de 1822",
+        "age": "202 anos"
+    },
+    {
+        "estate": "Rio de Janeiro (RJ)",
+        "population": "Aproximadamente 17.463.360 habitantes",
+        "territorial_area": "Aproximadamente 43.780 km²",
+        "municipalities": 92,
+        "climate": "Tropical e tropical de altitude",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias e africanas, festas como o Carnaval do Rio de Janeiro.",
+        "typical_foods": [
+            "Feijoada",
+            "empada",
+            "brigadeiro"
+        ],
+        "natural_resources": [
+            "Turismo",
+            "petróleo",
+            "agricultura"
+        ],
+        "date_of_fundation": "20 de janeiro de 1565",
+        "age": "459 anos"
+    },
+    {
+        "estate": "Rio Grande do Norte (RN)",
+        "population": "Aproximadamente 3.701.289 habitantes",
+        "territorial_area": "Aproximadamente 52.796 km²",
+        "municipalities": 167,
+        "climate": "Tropical e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Carnaval de Natal.",
+        "typical_foods": [
+            "Carne-de-sol",
+            "camarão na moranga",
+            "tapioca"
+        ],
+        "natural_resources": [
+            "Turismo",
+            "agricultura",
+            "minérios"
+        ],
+        "date_of_fundation": "25 de dezembro de 1597",
+        "age": "427 anos"
+    },
+    {
+        "estate": "Rio Grande do Sul (RS)",
+        "population": "Aproximadamente 11.619.786 habitantes",
+        "territorial_area": "Aproximadamente 281.748 km²",
+        "municipalities": 497,
+        "climate": "Subtropical úmido e temperado",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias (principalmente alemã e italiana), festas como a Festa Nacional da Uva em Caxias do Sul.",
+        "typical_foods": [
+            "Churrasco",
+            "cuca",
+            "arroz carreteiro"
+        ],
+        "natural_resources": [
+            "Agricultura (soja, trigo)",
+            "pecuária",
+            "indústria"
+        ],
+        "date_of_fundation": "11 de setembro de 1835",
+        "age": "189 anos"
+    },
+    {
+        "estate": "Rondônia (RO)",
+        "population": "Aproximadamente 1.814.046 habitantes",
+        "territorial_area": "Aproximadamente 237.576 km²",
+        "municipalities": 52,
+        "climate": "Tropical e equatorial",
+        "time_zone": "UTC -4",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Arraial Flor do Maracujá.",
+        "typical_foods": [
+            "Tacacá",
+            "arroz de carreteiro",
+            "peixes de água doce"
+        ],
+        "natural_resources": [
+            "Madeira",
+            "minérios",
+            "pecuária"
+        ],
+        "date_of_fundation": "4 de janeiro de 1982",
+        "age": "42 anos"
+    },
+    {
+        "estate": "Roraima (RR)",
+        "population": "Aproximadamente 652.713 habitantes",
+        "territorial_area": "Aproximadamente 224.299 km²",
+        "municipalities": 15,
+        "climate": "Equatorial e tropical",
+        "time_zone": "UTC -4",
+        "cultural_traditions": "Influências indígenas, festas como o Festival de Boa Vista.",
+        "typical_foods": [
+            "Tacacá",
+            "pamonha",
+            "vatapá"
+        ],
+        "natural_resources": [
+            "Biodiversidade amazônica",
+            "minérios",
+            "turismo"
+        ],
+        "date_of_fundation": "5 de outubro de 1988",
+        "age": "36 anos"
+    },
+    {
+        "estate": "Santa Catarina (SC)",
+        "population": "Aproximadamente 7.382.372 habitantes",
+        "territorial_area": "Aproximadamente 95.346 km²",
+        "municipalities": 295,
+        "climate": "Subtropical úmido e temperado",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias (principalmente alemã e italiana), festas como a Oktoberfest em Blumenau.",
+        "typical_foods": [
+            "Barreado",
+            "sequência de camarão",
+            "marreco recheado"
+        ],
+        "natural_resources": [
+            "Agricultura (tabaco, maçã)",
+            "pesca",
+            "indústria"
+        ],
+        "date_of_fundation": "11 de agosto de 1822",
+        "age": "202 anos"
+    },
+    {
+        "estate": "São Paulo (SP)",
+        "population": "Aproximadamente 46.289.333 habitantes",
+        "territorial_area": "Aproximadamente 248.209 km²",
+        "municipalities": 645,
+        "climate": "Tropical de altitude e subtropical úmido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências europeias e asiáticas, festas como a Festa de São Vito em São Paulo.",
+        "typical_foods": [
+            "Virado à paulista",
+            "pastel de feira",
+            "coxinha"
+        ],
+        "natural_resources": [
+            "Agricultura (canaviais, café)",
+            "indústria",
+            "turismo"
+        ],
+        "date_of_fundation": "25 de janeiro de 1554",
+        "age": "470 anos"
+    },
+    {
+        "estate": "Sergipe (SE)",
+        "population": "Aproximadamente 2.355.704 habitantes",
+        "territorial_area": "Aproximadamente 21.910 km²",
+        "municipalities": 75,
+        "climate": "Tropical úmido e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Forró Caju.",
+        "typical_foods": [
+            "Carne de sol",
+            "sarapatel",
+            "beiju"
+        ],
+        "natural_resources": [
+            "Agricultura (cana-de-açúcar, laranja)",
+            "petróleo",
+            "turismo"
+        ],
+        "date_of_fundation": "8 de julho de 1820",
+        "age": "204 anos"
+    },
+    {
+        "estate": "Tocantins (TO)",
+        "population": "Aproximadamente 1.733.559 habitantes",
+        "territorial_area": "Aproximadamente 277.620 km²",
+        "municipalities": 139,
+        "climate": "Tropical e tropical semiárido",
+        "time_zone": "UTC -3",
+        "cultural_traditions": "Influências indígenas e nordestinas, festas como o Araguaína Folia.",
+        "typical_foods": [
+            "Paçoca de carne seca",
+            "pamonha",
+            "peixe na telha"
+        ],
+        "natural_resources": [
+            "Agricultura (soja, milho)",
+            "minérios",
+            "ecoturismo"
+        ],
+        "date_of_fundation": "5 de outubro de 1988",
+        "age": "36 anos"
+    }
+]
