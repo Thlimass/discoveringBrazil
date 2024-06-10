@@ -1,15 +1,16 @@
 /* Estilos Globais */
 body{
     background-color: rgb(34, 34, 34);
-    color: white;
-    font-family: poppinsregular;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+    box-sizing: border-box;
 }
 
 header{
     display: flex;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +65,10 @@ img{
     width: 450px;
     margin-left: 180px;
     
+}
+
+.content-home {
+  color: white;
 }
 
 /* Estilos Específicos para a Página Mapa */
@@ -185,6 +190,54 @@ main.map{
 
 .flags-container .flag:hover {
     transform: scale(1.05);
+}
+
+/* Pagina de Curiosidades */
+
+.curiosities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-curiosities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 700px;
+  color: white;
+  width: 100%;
+  background-color: grey;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: poppinsregular;
+}
+
+.title-container {
+  font-family: poppinsregular;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+.table-container th, td {
+  padding: 10px;
+  text-align: left;
+  border: none
+}
+
+.table-container label {
+  font-weight: bold;
 }
 
 /* Pagina de Contato*/
