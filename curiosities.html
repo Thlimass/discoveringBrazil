@@ -1,21 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/styless.css" rel="stylesheet">
   <link href="./assets/fonts.css" rel="stylesheet">
 
-
   <title>DB - Curiosidades</title>
 </head>
-<body class="info">
+
+<body class="curiosities">
   <div id="header-container"></div>
-  <main class="info">
-    <aside>
-      
-  </aside>
-    
+  <main class="content-curiosities">
+    <section class="title-container">
+      <h1>Curiosidades dos Estados</h1>
+    </section>
+    <!-- Select -->
+    <section class="filter-curiosities">
+      <label for="stateSelect">Selecione um estado:</label>
+      <select id="stateSelect" onchange="exibirInformacoes()">
+        <option value="">--Selecione--</option>
+      </select>
+    </section>
+    <!-- Table -->
+    <section class="table-container">
+      <div id="informacoes" style="display: none;">
+        <table>
+          <tbody>
+            <tr>
+              <td>Estado:</td>
+              <td><span id="state"></span></td>
+            </tr>
+            <tr>
+              <td>UF:</td>
+              <td><span id="uf"></span></td>
+            </tr>
+            <tr>
+              <td>Capital:</td>
+              <td><span id="capital"></span></td>
+            </tr>
+            <tr>
+              <td>População:</td>
+              <td><span id="population"></span></td>
+            </tr>
+            <tr>
+              <td>Área territorial:</td>
+              <td><span id="area"></span></td>
+            </tr>
+            <tr>
+              <td>Qnt. Municípios:</td>
+              <td><span id="municipalities"></span></td>
+            </tr>
+            <tr>
+              <td>Clima:</td>
+              <td><span id="climate"></span></td>
+            </tr>
+            <tr>
+              <td>Fuso horário:</td>
+              <td><span id="time_zone"></span></td>
+            </tr>
+            <tr>
+              <td>Tradições culturais:</td>
+              <td><span id="traditions"></span></td>
+            </tr>
+            <tr>
+              <td>Comidas típicas:</td>
+              <td><span id="foods"></span></td>
+            </tr>
+            <tr>
+              <td>Recursos naturais:</td>
+              <td><span id="resources"></span></td>
+            </tr>
+            <tr>
+              <td>Data de fundação:</td>
+              <td><span id="fundation"></span></td>
+            </tr>
+            <tr>
+              <td>Idade:</td>
+              <td><span id="age"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
   </main>
   <script>
     fetch('header.html')
@@ -24,6 +94,59 @@
         document.getElementById('header-container').innerHTML = data;
       })
       .catch(error => console.error('Erro ao carregar o header:', error));
+
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('curiosities.json')
+        .then(response => response.json())
+        .then(data => {
+          carregarEstados(data);
+        });
+    });
+
+    function carregarEstados(data) {
+      const selectEstado = document.getElementById('stateSelect');
+      data.forEach(estado => {
+        const option = document.createElement('option');
+        option.value = estado.state;
+        option.textContent = estado.state;
+        selectEstado.appendChild(option);
+      });
+    }
+
+    function exibirInformacoes() {
+      const estadoSelecionado = document.getElementById('stateSelect').value;
+      const informacoesDiv = document.getElementById('informacoes');
+
+      if (!estadoSelecionado) {
+        informacoesDiv.style.display = 'none';
+        return;
+      }
+
+      fetch('curiosities.json')
+        .then(response => response.json())
+        .then(data => {
+          const estadoInfo = data.find(estado => estado.state === estadoSelecionado);
+          if (estadoInfo) {
+            document.getElementById('state').textContent = estadoInfo.state;
+            document.getElementById('uf').textContent = estadoInfo.federative_unit;
+            document.getElementById('capital').textContent = estadoInfo.capital;
+            document.getElementById('population').textContent = estadoInfo.population;
+            document.getElementById('area').textContent = estadoInfo.territorial_area;
+            document.getElementById('municipalities').textContent = estadoInfo.municipalities;
+            document.getElementById('climate').textContent = estadoInfo.climate;
+            document.getElementById('time_zone').textContent = estadoInfo.time_zone;
+            document.getElementById('traditions').textContent = estadoInfo.cultural_traditions;
+            document.getElementById('foods').textContent = estadoInfo.typical_foods.join(', ');
+            document.getElementById('resources').textContent = estadoInfo.natural_resources;
+            document.getElementById('fundation').textContent = estadoInfo.date_of_fundation;
+            document.getElementById('age').textContent = estadoInfo.age;
+            informacoesDiv.style.display = 'block';
+          } else {
+            informacoesDiv.style.display = 'none';
+          }
+        });
+    }
   </script>
 </body>
+
 </html>
