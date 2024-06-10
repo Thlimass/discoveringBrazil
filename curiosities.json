@@ -1,6 +1,8 @@
 [
     {
-        "state": "Acre (AC)",
+        "state": "Acre",
+        "federative_unit": "AC",
+        "capital": "Rio Branco",
         "population": "Aproximadamente 906.876 habitantes",
         "territorial_area": "Aproximadamente 164.123 km²",
         "municipalities": 22,
@@ -21,7 +23,9 @@
         "age": "61 anos"
     },
     {
-        "state": "Alagoas (AL)",
+        "state": "Alagoas",
+        "federative_unit":"AL",
+        "capital": "Maceió",
         "population": "Aproximadamente 3.351.543 habitantes",
         "territorial_area": "Aproximadamente 27.767 km²",
         "municipalities": 102,
@@ -42,7 +46,9 @@
         "age": "207 anos"
     },
     {
-        "state": "Amapá (AP)",
+        "state": "Amapá",
+        "federative_unit":"AP",
+        "capital": "Macapá",
         "population": "Aproximadamente 877.613 habitantes",
         "territorial_area": "Aproximadamente 142.814 km²",
         "municipalities": 16,
@@ -62,7 +68,9 @@
         "age": "81 anos"
     },
     {
-        "state": "Amazonas (AM)",
+        "state": "Amazonas",
+        "federative_unit":"AM",
+        "capital": "Manaus",
         "population": "Aproximadamente 4.348.129 habitantes",
         "territorial_area": "Aproximadamente 1.570.946 km²",
         "municipalities": 62,
@@ -83,7 +91,9 @@
         "age": "174 anos"
     },
     {
-        "state": "Bahia (BA)",
+        "state": "Bahia",
+        "federative_unit":"BA",
+        "capital": "Salvador",
         "population": "Aproximadamente 15.344.447 habitantes",
         "territorial_area": "Aproximadamente 564.692 km²",
         "municipalities": 417,
@@ -104,7 +114,9 @@
         "age": "201 anos"
     },
     {
-        "state": "Ceará (CE)",
+        "state": "Ceará",
+        "federative_unit":"CE",
+        "capital": "Fortaleza",
         "population": "Aproximadamente 9.441.640 habitantes",
         "territorial_area": "Aproximadamente 148.825 km²",
         "municipalities": 184,
@@ -125,7 +137,9 @@
         "age": "201 anos"
     },
     {
-        "state": "Distrito Federal (DF)",
+        "state": "Distrito Federal",
+        "federative_unit":"DF",
+        "capital": "Brasília",
         "population": "Aproximadamente 3.120.375 habitantes",
         "territorial_area": "Aproximadamente 5.802 km²",
         "municipalities": 1,
@@ -146,7 +160,9 @@
         "age": "64 anos"
     },
     {
-        "state": "Espírito Santo (ES)",
+        "state": "Espírito Santo",
+        "federative_unit":"ES",
+        "capital": "Vitória",
         "population": "Aproximadamente 4.064.052 habitantes",
         "territorial_area": "Aproximadamente 46.077 km²",
         "municipalities": 78,
@@ -167,7 +183,9 @@
         "age": "207 anos"
     },
     {
-        "state": "Goiás (GO)",
+        "state": "Goiás",
+        "federative_unit":"GO",
+        "capital": "Goiânia",
         "population": "Aproximadamente 7.507.771 habitantes",
         "territorial_area": "Aproximadamente 340.086 km²",
         "municipalities": 246,
@@ -188,7 +206,9 @@
         "age": "202 anos"
     },
     {
-        "state": "Maranhão (MA)",
+        "state": "Maranhão",
+        "federative_unit":"MA",
+        "capital": "São Luis",
         "population": "Aproximadamente 7.177.564 habitantes",
         "territorial_area": "Aproximadamente 331.983 km²",
         "municipalities": 217,
@@ -209,7 +229,9 @@
         "age": "203 anos"
     },
     {
-        "state": "Mato Grosso (MT)",
+        "state": "Mato Grosso",
+        "federative_unit":"MT",
+        "capital": "Cuiabá",
         "population": "Aproximadamente 4.646.349 habitantes",
         "territorial_area": "Aproximadamente 903.207 km²",
         "municipalities": 141,
@@ -230,7 +252,9 @@
         "age": "135 anos"
     },
     {
-        "state": "Mato Grosso do Sul (MS)",
+        "state": "Mato Grosso do Sul",
+        "federative_unit":"MS",
+        "capital": "Campo Grande",
         "population": "Aproximadamente 2.809.394 habitantes",
         "territorial_area": "Aproximadamente 357.145 km²",
         "municipalities": 79,
@@ -251,7 +275,9 @@
         "age": "47 anos"
     },
     {
-        "state": "Minas Gerais (MG)",
+        "state": "Minas Gerais",
+        "federative_unit":"MG",
+        "capital": "Belo Horizonte",
         "population": "Aproximadamente 22.778.925 habitantes",
         "territorial_area": "Aproximadamente 586.528 km²",
         "municipalities": 853,
@@ -272,7 +298,9 @@
         "age": "202 anos"
     },
     {
-        "state": "Pará (PA)",
+        "state": "Pará",
+        "federative_unit":"PA",
+        "capital": "Belém",
         "population": "Aproximadamente 9.620.011 habitantes",
         "territorial_area": "Aproximadamente 1.247.689 km²",
         "municipalities": 144,
@@ -293,7 +321,9 @@
         "age": "201 anos"
     },
     {
-        "state": "Paraíba (PB)",
+        "state": "Paraíba",
+        "federative_unit":"PB",
+        "capital": "João Pessoa",
         "population": "Aproximadamente 4.173.437 habitantes",
         "territorial_area": "Aproximadamente 56.469 km²",
         "municipalities": 223,
@@ -314,7 +344,9 @@
         "age": "202 anos"
     },
     {
-        "state": "Paraná (PR)",
+        "state": "Paraná",
+        "federative_unit":"PR",
+        "capital": "Curitiba",
         "population": "Aproximadamente 11.640.367 habitantes",
         "territorial_area": "Aproximadamente 199.314 km²",
         "municipalities": 399,
@@ -335,7 +367,9 @@
         "age": "171 anos"
     },
     {
-        "state": "Pernambuco (PE)",
+        "state": "Pernambuco",
+        "federative_unit":"PE",
+        "capital": "Recife",
         "population": "Aproximadamente 9.691.567 habitantes",
         "territorial_area": "Aproximadamente 98.311 km²",
         "municipalities": 184,
@@ -356,7 +390,9 @@
         "age": "207 anos"
     },
     {
-        "state": "Piauí (PI)",
+        "state": "Piauí",
+        "federative_unit":"PI",
+        "capital": "Teresina",
         "population": "Aproximadamente 3.351.543 habitantes",
         "territorial_area": "Aproximadamente 251.529 km²",
         "municipalities": 224,
@@ -377,7 +413,9 @@
         "age": "202 anos"
     },
     {
-        "state": "Rio de Janeiro (RJ)",
+        "state": "Rio de Janeiro",
+        "federative_unit":"RJ",
+        "capital": "Rio de Janeiro",
         "population": "Aproximadamente 17.463.360 habitantes",
         "territorial_area": "Aproximadamente 43.780 km²",
         "municipalities": 92,
@@ -398,7 +436,9 @@
         "age": "459 anos"
     },
     {
-        "state": "Rio Grande do Norte (RN)",
+        "state": "Rio Grande do Norte",
+        "federative_unit":"RN",
+        "capital": "Natal",
         "population": "Aproximadamente 3.701.289 habitantes",
         "territorial_area": "Aproximadamente 52.796 km²",
         "municipalities": 167,
@@ -419,7 +459,9 @@
         "age": "427 anos"
     },
     {
-        "state": "Rio Grande do Sul (RS)",
+        "state": "Rio Grande do Sul",
+        "federative_unit":"RS",
+        "capital": "Porto Alegre",
         "population": "Aproximadamente 11.619.786 habitantes",
         "territorial_area": "Aproximadamente 281.748 km²",
         "municipalities": 497,
@@ -440,7 +482,9 @@
         "age": "189 anos"
     },
     {
-        "state": "Rondônia (RO)",
+        "state": "Rondônia",
+        "federative_unit":"RO",
+        "capital": "Porto Velho",
         "population": "Aproximadamente 1.814.046 habitantes",
         "territorial_area": "Aproximadamente 237.576 km²",
         "municipalities": 52,
@@ -461,7 +505,9 @@
         "age": "42 anos"
     },
     {
-        "state": "Roraima (RR)",
+        "state": "Roraima",
+        "federative_unit":"RR",
+        "capital": "Boa Vista",
         "population": "Aproximadamente 652.713 habitantes",
         "territorial_area": "Aproximadamente 224.299 km²",
         "municipalities": 15,
@@ -482,7 +528,9 @@
         "age": "36 anos"
     },
     {
-        "state": "Santa Catarina (SC)",
+        "state": "Santa Catarina",
+        "federative_unit":"SC",
+        "capital": "Florianópolis",
         "population": "Aproximadamente 7.382.372 habitantes",
         "territorial_area": "Aproximadamente 95.346 km²",
         "municipalities": 295,
@@ -503,7 +551,9 @@
         "age": "202 anos"
     },
     {
-        "state": "São Paulo (SP)",
+        "state": "São Paulo",
+        "federative_unit":"SP",
+        "capital": "São Paulo",
         "population": "Aproximadamente 46.289.333 habitantes",
         "territorial_area": "Aproximadamente 248.209 km²",
         "municipalities": 645,
@@ -524,7 +574,9 @@
         "age": "470 anos"
     },
     {
-        "state": "Sergipe (SE)",
+        "state": "Sergipe",
+        "federative_unit":"SE",
+        "capital": "Aracaju",
         "population": "Aproximadamente 2.355.704 habitantes",
         "territorial_area": "Aproximadamente 21.910 km²",
         "municipalities": 75,
@@ -545,7 +597,9 @@
         "age": "204 anos"
     },
     {
-        "state": "Tocantins (TO)",
+        "state": "Tocantins",
+        "federative_unit":"TO",
+        "capital": "Palmas",
         "population": "Aproximadamente 1.733.559 habitantes",
         "territorial_area": "Aproximadamente 277.620 km²",
         "municipalities": 139,
