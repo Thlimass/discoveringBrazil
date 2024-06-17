@@ -194,10 +194,9 @@ path:hover {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Certifique-se de que este valor seja maior do que o z-index do main */
+  z-index: 1000;
 }
 
-/* Ajuste o main para evitar sobreposição */
 .content-curiosities {
   display: flex;
   flex-direction: column;
@@ -212,10 +211,9 @@ path:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   font-family: poppinsregular;
   margin: auto;
-  margin-top: 100px; /* Ajuste conforme a altura da sua navbar */
+  margin-top: 100px; 
 }
 
-/* Outros estilos permanecem os mesmos */
 .title-container {
   font-family: poppinsregular;
   font-size: 1.5rem;
