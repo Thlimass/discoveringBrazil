@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +10,28 @@
 
   <title>DB - Home</title>
 </head>
-<body class="home">
+
+<body>
   <div id="header-container"></div>
   <main class="home">
-    <aside class="content-home">
-      <h2>Amplie seu</h2>
-      <h2>conhecimento</h2>
-      
-        <p>Explore a diversidade dos estados brasileiros em nossa plataforma educativa, dedicada a revelar as características únicas de cada região do Brasil. </p>
-        <p>Com informações detalhadas de cada estado, nossa plataforma proporciona uma jornada de aprendizado enriquecedora. </p>
-        <p>Seja você um estudante curioso, um viajante ávido ou um entusiasta da cultura, nossa plataforma é o seu guia definitivo para explorar e entender os estados brasileiros.</p>
-      
-  </aside>
-    <article>
-      <img src="./assets/images/explore.png" alt="brazil-map">
-    </article>
-  </main>
-  <script>
-          fetch('header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('header-container').innerHTML = data;
+    <section class="content-home">
+      <h1>Amplie seu conhecimento</h1>
 
-        // Esconde o link para a página inicial quando a página inicial for carregada
-        if (document.body.classList.contains('home')) {
-          const homeLink = document.getElementById('home-link');
-          if (homeLink) {
-            homeLink.style.display = 'none';
-          }
-        }
-      })
-      .catch(error => console.error('Erro ao carregar o header:', error));
-  </script>
+      <p>Explore a diversidade dos estados brasileiros em nossa plataforma educativa, dedicada a revelar as
+        características únicas de cada região do Brasil. </p>
+      <p>Com informações detalhadas de cada estado, nossa plataforma proporciona uma jornada de aprendizado
+        enriquecedora. </p>
+      <p>Seja você um estudante curioso, um viajante ávido ou um entusiasta da cultura, nossa plataforma é o seu guia
+        definitivo para explorar e entender os estados brasileiros.</p>
+
+    </section>
+    <section>
+      <figure>
+        <img src="./assets/images/explore.png" alt="brazil-map">
+      </figure>
+    </section>
+  </main>
+  <script src="loadHeader.js"></script>
 </body>
+
 </html>
