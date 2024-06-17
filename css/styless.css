@@ -1,4 +1,4 @@
-/* Estilos Globais do header */
+ /* Estilos Globais do header */
 * {
   margin: 0;
   padding: 0;
@@ -188,13 +188,16 @@ path:hover {
 
 /* Pagina de Curiosidades */
 
-.curiosities {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+/* Estilos da Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Certifique-se de que este valor seja maior do que o z-index do main */
 }
 
+/* Ajuste o main para evitar sobreposição */
 .content-curiosities {
   display: flex;
   flex-direction: column;
@@ -208,8 +211,11 @@ path:hover {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   font-family: poppinsregular;
+  margin: auto;
+  margin-top: 100px; /* Ajuste conforme a altura da sua navbar */
 }
 
+/* Outros estilos permanecem os mesmos */
 .title-container {
   font-family: poppinsregular;
   font-size: 1.5rem;
@@ -222,18 +228,30 @@ path:hover {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-
 }
 
 .table-container th,
 td {
   padding: 10px;
   text-align: left;
-  border: none
+  border: none;
 }
 
 .table-container label {
   font-weight: bold;
+}
+
+@media (max-width: 999px) {
+  .title-container {
+    display: block;
+  }
+
+  .content-curiosities {
+    width: 75vw;
+  }
+  .filter-curiosities {
+    text-align: center;
+  }
 }
 
 /* Pagina de Contato*/
