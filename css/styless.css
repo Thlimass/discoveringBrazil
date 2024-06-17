@@ -5,46 +5,35 @@
 }
 
 /* Estilos Específicos para a Página Inicial */
-main {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
-}
-
-h2 {
-  font-size: 56px;
-  line-height: 10px;
-  font-family: poppinsmedium;
+.content-home {
   margin-bottom: 48px;
-  border-top: 0.4px solid black;
-  justify-items: left;
 }
 
-.content-home h2 {
+.content-title-home {
+font-size: 48px;
+}
+
+.main-content-home {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  color: white;
+  margin: 50px;
 }
 
-p {
-  line-height: 20px;
-  max-width: 500px;
-  font-family: poppinslight;
-  text-indent: 30px;
-  margin: 5px 0 048px;
-  text-align: justify;
+.main-content-written {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: poppinsregular;
 }
 
 img {
   width: 450px;
-  margin-left: 180px;
-
 }
 
-.content-home {
-  color: white;
-}
+
 
 @media (max-width: 999px) {
   header{
