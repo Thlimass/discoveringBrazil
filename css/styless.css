@@ -42,8 +42,8 @@ img {
 }
 
 /* Estilos Específicos para a Página Mapa */
-main.map {
-  width: 80%;
+.main-content-map {
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
