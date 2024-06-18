@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="../css/styless.css"> -->
     <style>
         * {
             margin: 0;
@@ -54,6 +53,10 @@
         .nav-list li {
             letter-spacing: 3px;
             margin-left: 32px;
+        }
+
+        .nav-list.no-home.active li {
+            margin-top: -200px;
         }
 
         .mobile-menu {
@@ -106,7 +109,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
             <a class="logo">Discovering Brazil</a>
             <div class="mobile-menu">
                 <div class="line"></div>

@@ -40,10 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
             mobileNavbar.init();
 
             // Esconde o link para a página inicial quando a página inicial for carregada
-            if (document.body.classList.contains('home')) {
+            if (document.body.classList.contains('home-page')) {
                 const homeLink = document.getElementById('home-link');
                 if (homeLink) {
                     homeLink.style.display = 'none';
+                    document.querySelector('.nav-list').classList.add('no-home');
                 }
             }
         })
