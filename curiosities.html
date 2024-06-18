@@ -11,7 +11,7 @@
 </head>
 
 <body class="curiosities">
-  <div id="header-container"></div>
+  <div id="header-container" class="navbar"></div>
   <main class="content-curiosities">
     <section class="title-container">
       <h1>Curiosidades dos Estados</h1>
@@ -100,6 +100,16 @@
         .then(response => response.json())
         .then(data => {
           carregarEstados(data);
+          // Obter parâmetro 'estado' da URL ao carregar a página
+          const params = new URLSearchParams(window.location.search);
+          const estadoSelecionado = params.get('estado');
+          
+          if (estadoSelecionado) {
+            // Selecionar o estado no dropdown
+            document.getElementById('stateSelect').value = estadoSelecionado;
+            // Exibir informações do estado selecionado
+            exibirInformacoes();
+          }
         });
     });
 
@@ -147,6 +157,7 @@
         });
     }
   </script>
+  <script src="loadHeader.js"></script>
 </body>
 
 </html>
