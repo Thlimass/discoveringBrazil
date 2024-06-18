@@ -266,6 +266,15 @@ td {
 }
 
 /* Pagina de Contato*/
+
+.content-main-written-title {
+  display: flex;
+  justify-content: center;
+  margin: 34px 0;
+  color: white;
+  font-family: poppinsregular;
+  font-size: 48px;
+}
 .main-contact {
   display: flex;
   align-items: center;
@@ -335,6 +344,13 @@ td {
   background-color: #f2f2f2;
   color: black;
   border-radius: 16px;
+}
+
+@media (max-width: 999px) {
+  .main-contact {
+    display: flex;
+    width: 50%;
+  }
 }
 
 /* Pagina de Agradecimento*/
