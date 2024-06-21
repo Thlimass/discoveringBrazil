@@ -372,7 +372,7 @@ main.thanks {
 .paragraph {
   font-family: poppinsregular;
   color: white;
-  margin-top: 50px;
+  margin: 50px 0 30px 0;
 }
 
 .btn {
